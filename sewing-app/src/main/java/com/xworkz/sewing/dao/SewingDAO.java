@@ -7,5 +7,9 @@ public interface SewingDAO {
 	public void save(SewingDTO sewingDTO);
 	
 	public void getSewingData();
+	
+	public void updateSewing();
+	
+	public void deleteSewingData();
 
 }
